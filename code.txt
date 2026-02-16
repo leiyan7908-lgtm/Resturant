@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restarant </title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>a<h1>Welcome to our restaurant
+</h1>
+<img src="https://media.istockphoto.com/id/1311777543/photo/luxury-restaurant-interior.webp?a=1&b=1&s=612x612&w=0&k=20&c=IzhPBzoBf7EAhE3ke8JQap81bHfJSSZZiHrzy1rdWzU=" alt="Restaurant Interior">
+<p>Enjoy your meal at our luxurious restaurant!</p>
+</body>
+</html>
+
+
+body{
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    border: 2px solid darkblue;
+
+}
+div{
+    height: 200px;
+    width: 150px;
+    background-color: turquoise;
+}
+
+    
