@@ -20,7 +20,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-  background: #111;
+  background:darkred;
   padding: 15px 0;
   position: sticky;
   top: 0;
@@ -39,7 +39,7 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 50px;
 }
 
 .nav-links a {
@@ -55,9 +55,12 @@ body {
 /* HERO */
 .hero {
   height: 90vh;
-  background-image: url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092");
+  background-image: url("https://images.unsplash.com/photo-1681567604770-0dc826c870ae?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: center;
+  /* background-image: url("https://unsplash.com/photos/a-person-cutting-a-pizza-with-a-knife-and-fork-JBWFTMjKgfM"); */
+  background-repeat: no-repeat;
+
   position: relative;
   display: flex;
   align-items: center;
@@ -78,7 +81,7 @@ body {
 }
 
 .hero h2 {
-  font-size: 48px;
+  font-size: 64px;
   margin-bottom: 15px;
 }
 
@@ -90,14 +93,14 @@ body {
 /* BUTTON */
 .cta-button {
   padding: 12px 30px;
-  background: #c59d5f;
+  background: green;
   border: none;
   font-weight: bold;
   cursor: pointer;
 }
 
 .cta-button:hover {
-  background: #b08a4a;
+  background: green;
 }
 
 /* ABOUT */
@@ -114,7 +117,7 @@ body {
 
 .about img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
 /* CONTACT */
